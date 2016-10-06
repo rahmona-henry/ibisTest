@@ -5,6 +5,10 @@ app.get('/', function(req, res){
   res.send('hello ibis Queenstown!')
 })
 
+app.get('/goodbye', function(req, res){
+  res.send('goodbye ibis Queenstown!')
+})
+
 app.listen(3000, function(){
   console.log('Making IBIS bookings on port 3000!')
 })
